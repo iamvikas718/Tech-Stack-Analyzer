@@ -1,4 +1,4 @@
-# Tech Stack Analyzer – Caprae Capital Challenge
+# Tech Stack Analyzer 
 
 ## Objective
 This tool helps sales and research teams identify the technology stack used by potential leads for smarter outreach and qualification.
@@ -7,7 +7,7 @@ This tool helps sales and research teams identify the technology stack used by p
 - Users input one or more domains
 - Calls Wappalyzer API to fetch technologies
 - Displays categorized tech stack
-- Allows CSV export for CRM use
+- Allows CSV export for  use
 
 ## Technical Stack
 - Python
