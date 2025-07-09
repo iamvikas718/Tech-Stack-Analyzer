@@ -1,15 +1,15 @@
 import requests
 
 def get_tech_stack(domain, api_key):
-    url = "https://api.wappalyzer.com/v2/lookup/"
-    headers = {"x-api-key": api_key}
-    params = {"urls": domain}
-
-    try:
-        response = requests.get(url, headers=headers, params=params)
-        if response.status_code == 200:
-            return response.json()
-        else:
-            return []
-    except Exception as e:
-        return []
+    url = "https://api.builtwith.com/free1/api.json"
+    params = {"KEY": api_key, "LOOKUP": domain}
+    resp = requests.get(url, params=params)
+    if resp.status_code == 200:
+        data = resp.json()
+        groups = data.get("groups", [])
+        techs = []
+        for group in groups:
+            for category in group.get("categories", []):
+                techs.append(category["name"])
+        return techs
+    return []
