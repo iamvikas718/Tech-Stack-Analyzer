@@ -5,7 +5,7 @@ This tool helps sales and research teams identify the technology stack used by p
 
 ## What It Does
 - Users input one or more domains
-- Calls Wappalyzer API to fetch technologies
+- Calls builtwith API to fetch technologies
 - Displays categorized tech stack
 - Allows CSV export for  use
 
@@ -18,6 +18,3 @@ This tool helps sales and research teams identify the technology stack used by p
 ## Business Use Case
 B2B teams often prioritize companies based on tech compatibility. This tool enables fast, accurate tech profiling for outreach campaigns.
 
-## Limitations
-- Relies on API rate limits
-- Accuracy depends on Wappalyzer’s detection
