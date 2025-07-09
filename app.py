@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from tech_stack import get_tech_stack
 
-st.title("🧠 Tech Stack Analyzer (BuiltWith API)")
+st.title("🧠 Tech Stack Analyzer")
 
 # Input fields
 domains_input = st.text_area("Enter domains (one per line)")
