@@ -12,7 +12,7 @@ This tool helps sales and research teams identify the technology stack used by p
 ## Technical Stack
 - Python
 - Streamlit (UI)
-- Wappalyzer API
+- builtwith API
 - pandas (data handling)
 
 ## Business Use Case
