@@ -5,7 +5,7 @@ from tech_stack import get_tech_stack
 st.title("🧠 Tech Stack Analyzer")
 
 domains_input = st.text_area("Enter domains (one per line)")
-api_key = st.text_input("Wappalyzer API Key", type="password")
+api_key = st.text_input("API Key", type="password")
 
 if st.button("Analyze"):
     domains = [d.strip() for d in domains_input.split('\n') if d.strip()]
