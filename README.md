@@ -5,7 +5,7 @@ A lightweight lead generation tool that detects what technologies a company uses
 ##  How to Use
 
 1. Clone this repo or run it on Streamlit Cloud (https://streamlit.io/cloud)
-2. Enter your Wappalyzer API key
+2. Enter your builtwith API key
 3. Paste domain (e.g. stripe.com)
 4. Get a list of tech stack per domain
 5. Export as CSV
@@ -17,6 +17,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-##  Get a Wappalyzer API key
+##  Get a builtwith API key
 
-- Sign up at [https://www.wappalyzer.com](https://www.wappalyzer.com)
+- Sign up at (https://api.builtwith.com)
